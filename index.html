@@ -5,18 +5,47 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-        body { font-family: Arial, sans-serif; margin: 40px; }
-        h1 { color: #333; }
-        a { color: #0066cc; text-decoration: none; }
-        a:hover { text-decoration: underline; }
+        body { 
+            font-family: 'Arial', sans-serif; 
+            margin: 40px; 
+            background: #f5f5f5;
+            color: #333;
+        }
+        h1 { 
+            color: #0066cc; 
+            border-bottom: 3px solid #0066cc;
+            padding-bottom: 10px;
+        }
+        .post-list {
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        a { 
+            color: #0066cc; 
+            text-decoration: none;
+            display: block;
+            padding: 10px;
+            margin: 5px 0;
+            border-left: 3px solid #0066cc;
+            padding-left: 15px;
+        }
+        a:hover { 
+            background: #f0f0f0;
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
     <h1>⚡ NeuroFlow Daily</h1>
     <p>AI-Generated Daily Briefings on Neuroscience & Trading</p>
-    <h2>Latest Posts:</h2>
-    <ul>
-        <li><a href="content/posts/2026-02-04-neuroflow-intel.md">2026-02-04 - NeuroFlow Intel</a></li>
-    </ul>
+    
+    <div class="post-list">
+        <h2>Latest Posts:</h2>
+        <a href="https://raw.githubusercontent.com/Jonez-9001/neuroflow-site/main/content/posts/2026-02-04-neuroflow-intel.md" target="_blank">
+            📄 2026-02-04 - NeuroFlow Intel
+        </a>
+    </div>
 </body>
 </html>
